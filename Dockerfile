@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Sebastian Schneider <mail@sesc.eu>
+MAINTAINER Gustavo Mathias Rocha <gustavo@c0mputand0.tech>
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN locale-gen en_US en_US.UTF-8 && dpkg-reconfigure locales
